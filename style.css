@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+header{
+    padding: 1rem;
+    background: lightgray;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+ul li:last-child{
+    background: black;
+    color: white;
+    padding: .8rem;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+aside, main{
+    border: 1px solid;
+    height: 85vh;
+
+}
+aside{
+    flex-basis: 25%;
+}
+main{
+    flex: 1;
+}
+img{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    padding: 1rem;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+button{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: .2rem;
+}
+button img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+.contato{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contato img{
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+}
